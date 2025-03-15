@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styles from "./Navbar.module.css"
 
 const Navbar: React.FC = () => {
     return (
-        <nav>
+        <nav className={styles.navbar}>
             <h2> Tienda Online </h2>
             <ul>
                 <li><Link to="/"> Inicio </Link></li>
