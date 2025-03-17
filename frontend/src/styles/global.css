@@ -5,17 +5,31 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #ff6600;
+    --secondary-color: #333;
+    --background-color: #f4f4f4;
+    --text-color: #222;
+}
+
 /* FUENTE Y COLORES */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: gray;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 /* PARA ENLACES */
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: darkorange;
 }
 
 /* PARA LISTAS */
@@ -26,8 +40,8 @@ ul {
 
 /* CONTENEDORES */
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 95%;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem;
 }

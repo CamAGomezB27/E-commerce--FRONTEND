@@ -11,7 +11,7 @@ const Layout: React.FC = () => {
     return (
         <div className={styles.layout}>
             <Navbar />
-            <main className={styles.main}>
+            <main className={styles.content}>
                 <Outlet />
             </main>
             <Footer />

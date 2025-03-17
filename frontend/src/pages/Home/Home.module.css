@@ -1,0 +1,78 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+/* Hero Section */
+.hero {
+    background: url('') no-repeat center center/cover;
+    color: black;
+    /* padding: 5rem 2rem; */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.cta {
+    background-color: #ff6600;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.cta:hover {
+    background-color: #b34603;
+}
+
+/* Categorias */
+.categories {
+    margin-top: 2rem;
+}
+
+.categoryGrid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.categoryCard {
+    background: #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    min-width: 150px;
+}
+
+/* Productos */
+.featured {
+    margin-top: 2rem;
+}
+
+.productGrid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.productCard {
+    background: #eee;
+    padding: 1 rem;
+    border-radius: 8px;
+    min-width: 100px;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+  }
