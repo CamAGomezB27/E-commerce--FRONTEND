@@ -1,22 +1,24 @@
 .navbar {
-    background-color: var(--secondary-color);
+    background: linear-gradient(90deg, #0059b8, #013466); /* Degradado azul */
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: var(--white);
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
     border-radius: 4px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.344); /* Sombra */
+    box-shadow: 0px 6px 14px rgb(57, 72, 155); /* Sombra más fuerte */
     transition: all 0.3s ease-in-out;
+    border: none;
 }
 
 .navbar:hover {
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.755);
+    box-shadow: 0px 8px 18px rgb(0, 9, 61); /* Sombra más fuerte */
+    transform: scale(1.02);
 }
 
 .navbar ul {
@@ -26,15 +28,17 @@
 }
 
 .navbar a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 600;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     padding: 0.5rem 1rem;
+    display: inline-block;
 }
 
 .navbar a:hover {
-    color: var(--primary-color);
-    border-radius: 5px;
+    color: var(--white);
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    transform: scale(1.1);
 }
